@@ -1,4 +1,4 @@
-# TypeScript - fetch json
+# Fetch json
 
 ## Description
 
@@ -25,4 +25,4 @@ Clone repo, cd into folder then:
 
 ## Tools
 
-- Axios: to make a request
+- Axios: Promise based HTTP request
