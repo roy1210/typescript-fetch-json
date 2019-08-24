@@ -1,9 +1,9 @@
-import axios from 'axios'
+import axios from "axios";
 
-const url = 'http://jsonplaceholder.typicode.com/todos/1'
+const url = "http://jsonplaceholder.typicode.com/todos/1";
 
-    // Prettier error ?
-    interface Todo {
+// Prettier / vs code error ?
+interface Todo {
   id: number;
   title: string;
   completed: boolean;
@@ -15,8 +15,8 @@ axios.get(url).then(response => {
   const title = todo.title;
   const completed = todo.completed;
 
-  logTodo(id, title, completed)
-})
+  logTodo(id, title, completed);
+});
 
 const logTodo = (id: number, title: string, completed: boolean) => {
   console.log(`
@@ -24,4 +24,4 @@ const logTodo = (id: number, title: string, completed: boolean) => {
       Has a title of : ${title}
       Is it finished? ${completed}
     `);
-}
+};
