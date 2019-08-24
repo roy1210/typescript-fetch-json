@@ -1,8 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
-const url = "http://jsonplaceholder.typicode.com/todos/1";
+const url = 'http://jsonplaceholder.typicode.com/todos/1';
 
-// Prettier / vs code error ?
 interface Todo {
   id: number;
   title: string;
